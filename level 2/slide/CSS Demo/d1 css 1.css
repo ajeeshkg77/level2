@@ -1,0 +1,22 @@
+/*element selectors*/
+body{
+	background-color: #e0d0df;
+}
+p{
+	color: red;
+}
+
+div p{
+	color: green;
+}
+
+/*class selector*/
+.blue_text{
+	color: blue;
+}
+
+/*id selector*/
+#bold_text{
+	font-weight: bold;
+}
+

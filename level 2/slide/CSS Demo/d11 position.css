@@ -1,0 +1,44 @@
+#para1{
+	position: static;
+	/*static is default*/
+	border: 2px solid black;
+	top: 2px;
+	right: 2px;
+}
+
+#para2{
+	position: relative;
+	border: 2px solid black;
+	left: 20px;
+	width: 500px;
+}
+
+div.para3_div{
+	position: relative;
+	border: 5px solid red;
+	width: 500px;
+	height: 500px;
+}
+
+div.para3{
+	position: absolute;
+	width: 300px;/*width length will be measured based on root element */
+	border: 5px solid black;
+	top: 0px;
+	/*top: 10px;*/
+	/*right: 20px;*/
+}
+
+#para4{
+	border: 5px solid green;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+
+}
+
+#para5{
+	border: 5px solid yellow;
+	position: sticky;
+	top: 25px;
+}

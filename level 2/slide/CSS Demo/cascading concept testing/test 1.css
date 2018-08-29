@@ -1,0 +1,27 @@
+#para1{
+	color: red;
+}
+
+#para1{
+	color: blue;
+}
+
+#para2{
+	border: 2px solid black !important;
+}
+
+#para2{
+	border: 2px solid red ; 
+}
+
+#para3{
+	border: 3px solid green; /*specificity 0100*/
+}
+
+#para4{
+	color: red; /*specificity 0100*/
+}
+
+.super div p{
+	color: black /*!important;*/ /*specificity 0012*/
+}

@@ -1,0 +1,34 @@
+.firstsamplediv
+{
+   background: rgba(0, 0, 0, 0.5);
+  width:600px;
+  height:50px;
+ 
+  display:inline;
+ 
+}
+.secondsamplediv
+{
+  /*width:600px;
+  height:50px;*/
+      background-color: #794BC4;
+      padding:20px 30px;
+      margin-top: 10px;
+      text-align: center;
+}
+.mainsamplediv
+{
+  position: absolute;
+  padding-top: 10px;
+  width: 600px;
+  height: 100px;
+
+}
+li
+{
+  margin: 0px 20px;
+  display:inline;
+  float:left;
+  text-decoration:none;
+  padding:5px;
+}
